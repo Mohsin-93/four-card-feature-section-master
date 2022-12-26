@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github Repository](https://github.com/Mohsin-93/single-price-grid-component)
-- Live Site URL: [Github Pages](https://mohsin-93.github.io/single-price-grid-component/)
+- Solution URL: [Github Repository](https://github.com/Mohsin-93/four-card-feature-section-master)
+- Live Site URL: [Github Pages](https://mohsin-93.github.io/four-card-feature-section-master/)
 
 ## My process
 
