@@ -1,0 +1,167 @@
+
+    * {
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+  
+      }
+  
+      html,
+      body {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: hsl(0, 0%, 98%);
+      }
+      h2,
+      h3 {
+        color: hsl(234, 12%, 34%);
+  
+      }
+  
+      p {
+        color: hsl(229, 6%, 66%);
+      }
+   
+      .font-extralight {
+        font-weight: 200;
+      }
+  
+      .container {
+        /* width: 84%;
+        margin: auto; */
+      }
+  
+      .top-text {
+        text-align: center;
+        padding: 2.3rem 0;
+      }
+  
+
+      .supervisor,
+      .team-builder,
+      .karma,
+      .calculator {
+        width: 100%;
+        border-radius: 5px;
+        background-color: white;
+        box-shadow: 0 6px 16px 1px hsl(229, 6%, 66%);
+        padding: 1.2rem;
+        margin-bottom: 1.2rem;
+        overflow: hidden;
+      }
+  
+      .container div h3 {
+        margin-top: 0px;
+        margin-bottom: 0;
+      }
+  
+      .container div p {
+        font-size: .89rem;
+        margin-top: 0;
+      }
+  
+img {
+        float: right;
+        width: 19%;
+      }
+  
+      .supervisor {
+        border-top: 4px solid hsl(180, 62%, 55%);
+  
+      }
+  
+      .team-builder {
+        border-top: 4px solid hsl(0, 78%, 62%);
+  
+      }
+  
+      .karma {
+        border-top: 4px solid hsl(34, 97%, 64%);
+  
+      }
+  
+      .calculator {
+        border-top: 4px solid hsl(212, 86%, 64%);
+  
+  
+      }
+  
+  
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+  
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+  
+      @media screen and (min-width: 28.75em) {      /*460px - Using 'em' gives users the ability to scale elements up and down, relative to a set value*/
+  
+        html,
+        body {
+          /* justify-content: unset; */
+          align-items: unset;
+        }
+  
+        .container {
+          /* width: 84%; */
+          width: 980px;
+          margin-top: 01.5rem;
+  
+        }
+  
+        .top-text {
+  
+  
+          text-align: center;
+          margin-bottom: 2.4rem;
+  
+        }
+  
+        .top-text h2 {
+          font-size: xx-large;
+        }
+  
+        .top-text p {
+          max-width: 45ch;
+          margin: auto;
+  
+        }
+  
+        .supervisor,
+        .team-builder,
+        .karma,
+        .calculator {
+          height: fit-content;
+          overflow: hidden;
+          width: 90%
+        }
+  
+        .supervisor {
+          border-top: 4px solid hsl(180, 62%, 55%);
+  
+        }
+  
+        .card-container {
+            margin: auto;
+          width: 70%;
+          display: flex;
+  
+        }
+  
+        .card-container>div {
+          width: 33%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+        }
+  
+  
+  
+  
+      }

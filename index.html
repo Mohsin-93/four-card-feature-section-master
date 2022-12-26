@@ -9,195 +9,31 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Poppins:wght@200;400;600&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="/index.css">
   <title>Frontend Mentor | Four card feature section</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    * {
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-
-    }
-
-    html,
-    body {
-      width: 100%;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      background-color: hsl(0, 0%, 98%);
-    }
-
-    .font-extralight {
-      font-weight: 200;
-    }
-
-    .container {
-      width: 84%;
-      margin: auto;
-    }
-
-    .top-text {
-      text-align: center;
-      padding: 2.3rem 0;
-    }
-
-    .container h2,
-    h3 {
-      color: hsl(234, 12%, 34%);
-
-    }
-
-    p {
-      color: hsl(229, 6%, 66%);
-    }
- 
-    .supervisor,
-    .team-builder,
-    .karma,
-    .calculator {
-      width: 100%;
-      border-radius: 5px;
-      background-color: white;
-      box-shadow: 0 6px 16px 1px hsl(229, 6%, 66%);
-      padding: 1.2rem;
-      margin-bottom: 1.2rem;
-      overflow: hidden;
-    }
-
-    .container div h3 {
-      margin-top: 0px;
-      margin-bottom: 0;
-    }
-
-    .container div p {
-      font-size: .89rem;
-      margin-top: 0;
-    }
-
-    .container div img {
-      float: right;
-      width: 19%;
-    }
-
-    .supervisor {
-      border-top: 4px solid hsl(180, 62%, 55%);
-
-    }
-
-    .team-builder {
-      border-top: 4px solid hsl(0, 78%, 62%);
-
-    }
-
-    .karma {
-      border-top: 4px solid hsl(34, 97%, 64%);
-
-    }
-
-    .calculator {
-      border-top: 4px solid hsl(212, 86%, 64%);
-
-
-    }
-
-
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-
-    @media screen and (min-width: 460px) {
-
-      html,
-      body {
-        /* justify-content: unset; */
-        align-items: unset;
-      }
-
-      .container {
-        /* width: 84%; */
-        width: 980px;
-        margin-top: 01.5rem;
-
-      }
-
-      .top-text {
-
-
-        text-align: center;
-        margin-bottom: 2.4rem;
-
-      }
-
-      .top-text h2 {
-        font-size: xx-large;
-      }
-
-      .top-text p {
-        max-width: 45ch;
-        margin: auto;
-
-      }
-
-      .supervisor,
-      .team-builder,
-      .karma,
-      .calculator {
-        height: fit-content;
-        overflow: hidden;
-        width: 90%
-      }
-
-      .supervisor {
-        border-top: 4px solid hsl(180, 62%, 55%);
-
-      }
-
-      .card-container {
-        width: 100%;
-        display: flex;
-
-      }
-
-      .card-container>div {
-        width: 33%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-      }
-
-
-
-
-    }
   </style>
 </head>
 
 <body>
 
-  <div class="container">
-    <header class="top-text">
-      <h2> <span class="font-extralight"> Reliable, efficient delivery</span> <br /> Powered by Technology</h2>
-      <p>
-        Our Artificial Intelligence powered tools use millions of project data points
-        to ensure that your project is successful
-      </p>
-    </header>
+  <header class="top-text">
+    <h2> <span class="font-extralight"> Reliable, efficient delivery</span> <br /> Powered by Technology</h2>
+    <p>
+      Our Artificial Intelligence powered tools use millions of project data points
+      to ensure that your project is successful
+    </p>
+  </header>
+  <main>
     <section class="card-container">
       <div class="container-supervisor">
         <div class="supervisor">
           <h3>Supervisor</h3>
           <p> Monitors activity to identify project roadblocks
           </p>
-          <img src="images/icon-supervisor.svg" alt="" aria-hidden= true >
+          <img src="images/icon-supervisor.svg" alt="" aria-hidden=true>
 
         </div>
       </div>
@@ -206,7 +42,7 @@
           <h3>Team Builder</h3>
           <p> Scans our talent network to create the optimal team for your project
           </p>
-          <img src="images/icon-team-builder.svg" alt="" aria-hidden= true >
+          <img src="images/icon-team-builder.svg" alt="" aria-hidden=true>
 
         </div>
 
@@ -214,7 +50,7 @@
           <h3>Karma</h3>
           <p> Regularly evaluates our talent to ensure quality
           </p>
-          <img src="images/icon-karma.svg" alt="" aria-hidden= true >
+          <img src="images/icon-karma.svg" alt="" aria-hidden=true>
 
         </div>
       </div class="container-middle-card">
@@ -223,12 +59,12 @@
           <h3>Calculator</h3>
           <p> Uses data from past projects to provide better delivery estimates
           </p>
-          <img src="images/icon-calculator.svg" alt="" aria-hidden= true >
+          <img src="images/icon-calculator.svg" alt="" aria-hidden=true>
 
         </div>
       </div>
     </section>
-  </div>
+  </main>
   <!-- Reliable, efficient delivery
   Powered by Technology
 
